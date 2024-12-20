@@ -18,3 +18,4 @@ class TrustHosts extends Middleware
         ];
     }
 }
+
