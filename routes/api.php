@@ -23,6 +23,7 @@ Route::delete('/{id}',[App\Http\Controllers\EmployeeController::class, 'destroy'
 Route::put('/update/{employee}',[App\Http\Controllers\EmployeeController::class, 'update']);
 
 Route::get('/employees',[App\Http\Controllers\EmployeeController::class, 'index']);
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
