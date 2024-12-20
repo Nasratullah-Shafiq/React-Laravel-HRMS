@@ -36,7 +36,6 @@ class EmployeeController extends Controller
         $employees->save();
         return response()->json('Employee Created!');
     }
-
     /**
      * Display the specified resource.
      */
